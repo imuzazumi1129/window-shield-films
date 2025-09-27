@@ -272,14 +272,8 @@ function WindowShieldSite() {
         <Hero title={t.heroTitle} sub={t.heroSub} phone={PHONE} ctaText={t.ctaCall} />
 
         {/* Products */}
-        <motion.section
-          id="films"
-          className="max-w-6xl mx-auto px-4 py-12"
-          initial={{ opacity: 0, y: 24 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, amount: 0.3 }}
-          transition={{ duration: 0.5 }}
-        >
+        <section id="films" className="max-w-6xl mx-auto px-4 py-12 bg-neutral-50">
+
           <h2 className="text-2xl md:text-3xl font-extrabold mb-6 flex items-center gap-2">
             <Globe className="w-6 h-6" />
             {t.sectionFilms}
@@ -360,7 +354,8 @@ function WindowShieldSite() {
               </article>
             ))}
           </div>
-        </motion.section>
+          </section>
+
 
         {/* Gallery */}
         <section className="max-w-6xl mx-auto px-4 py-12">
