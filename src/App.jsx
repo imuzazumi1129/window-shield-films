@@ -514,14 +514,15 @@ function WindowShieldSite() {
 
         {/* Footer */}
         <Footer
-          lang={lang}
-          phone={PHONE}
-          ownerEn={OWNER_EN}
-          ownerJp={OWNER_JP}
-          addressEn="Hiroshima, Japan"
-          addressJp="広島県"
-          email="imuzazumistudio@gmail.com"
+        lang={lang}
+        phone={PHONE}
+        ownerEn={OWNER_EN}
+        ownerJp={OWNER_JP}
+        addressEn="Japan"
+        addressJp="日本"
+        email="imuzazumistudio@gmail.com"
         />
+
       </div>
 
       {/* ===== LIGHTBOX OVERLAY (kept inside the same return) ===== */}
@@ -618,7 +619,7 @@ export default WindowShieldSite;
 /* ---------------------------- i18n text ---------------------------- */
 const enText = {
   heroTitle: "Protect Your Home. Save Energy. Stay Comfortable.",
-  heroSub: "Professional installation of premium window films across Hiroshima & nearby areas.",
+  heroSub: "Professional installation of premium window films across Japan.", 
   ctaCall: "Call for Free Consultation",
   ctaCalc: "Estimate Price",
   sectionFilms: "Our Film Lineup",
@@ -636,7 +637,7 @@ const enText = {
 
 const jpText = {
   heroTitle: "住まいを守り、省エネで快適に。",
-  heroSub: "広島県周辺で窓用フィルムの施工をプロが担当します。",
+  heroSub: "日本全国で高品質な窓用フィルム施工をプロが担当します。",  
   ctaCall: "無料相談に電話する",
   ctaCalc: "料金を見積もる",
   sectionFilms: "取扱いフィルム",

@@ -8,8 +8,8 @@ export default function Footer({
   phone = "080-2935-4753",
   ownerEn = "Hirose Marco Lucio",
   ownerJp = "広瀬 マルコ ルシオ",
-  addressEn = "Hiroshima, Japan",
-  addressJp = "広島県",
+  addressEn = "Japan",
+  addressJp = "日本",
   email = "imuzazumistudio@gmail.com",
 }) {
   const t = lang === "jp" ? jp : en;
@@ -117,7 +117,7 @@ const en = {
   address: "Address",
   phone: "Phone",
   quick: "Quick Info",
-  area: "Service area: Hiroshima & nearby",
+  area: "Service area: Japan (nationwide)",   // ← updated
   licensed: "Licensed & insured",
   sameweek: "Same-week appointments available",
   formTitle: "Contact Form",
@@ -129,7 +129,8 @@ const en = {
   sending: "Sending…",
   ok: "Thanks! Your message was sent.",
   err: "Oops—something went wrong. Please try again.",
-  notice: "By sending, you agree that we may contact you about your inquiry. We do not share your information.",
+  notice:
+    "By sending, you agree that we may contact you about your inquiry. We do not share your information.",
 };
 
 const jp = {
@@ -137,7 +138,7 @@ const jp = {
   address: "住所",
   phone: "電話",
   quick: "基本情報",
-  area: "対応エリア：広島県周辺",
+  area: "対応エリア：日本全国",              // ← 更新
   licensed: "有資格・保険加入",
   sameweek: "最短で当週の施工も可能",
   formTitle: "お問合せフォーム",
@@ -149,5 +150,7 @@ const jp = {
   sending: "送信中…",
   ok: "送信が完了しました。ありがとうございます。",
   err: "送信に失敗しました。再度お試しください。",
-  notice: "送信により、お問い合わせ内容についてご連絡する場合があります。個人情報は第三者に提供しません。",
+  notice:
+    "送信により、お問い合わせ内容についてご連絡する場合があります。個人情報は第三者に提供しません。",
 };
+
